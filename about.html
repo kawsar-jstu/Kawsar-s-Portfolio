@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kawsar Alam — EEE Portfolio">
+  <title>About Me | Kawsar Alam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVIGATION: menu items and links can be edited here on every page -->
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">KA.</span><span>Kawsar Alam</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" id="nav-links">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="skills.html" class="">Skills</a>
+        <a href="projects.html" class="">Projects</a>
+        <a href="education.html" class="">Education</a>
+        <a href="experience.html" class="">Experience</a>
+        <a href="gallery.html" class="">Gallery</a>
+        <a href="certificates.html" class="">Certificates</a>
+        <a href="contact.html" class="">Contact</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme">☼</button>
+    </nav>
+  </header>
+  <main>
+
+    <section class="page-hero section-wrap"><p class="eyebrow">01 — GET TO KNOW ME</p><h1>About <span>me.</span></h1><p>My academic journey, technical core interests, and vision as a growing Electrical and Electronic Engineer.</p></section>
+    <section class="section section-wrap about-layout">
+      <div class="about-photo"><img src="assets/profile.jpg" alt="Kawsar Alam" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder');"><div class="photo-fallback"><span>KA</span><small>Add profile.jpg</small></div></div>
+      <div class="about-copy"><p class="eyebrow">MY INTRODUCTION</p><h2>Hello, I'm <span>Kawsar Alam.</span></h2><p>I am an Electrical and Electronic Engineering student at JSTU, Bangladesh. I am passionate about understanding circuit dynamics, electrical machine modeling, power systems, and signal processing to develop practical engineering solutions.</p><p>This portfolio serves as a live repository documenting my academic research, circuit designs, software simulations, laboratory investigations, and technical milestones.</p><h3>What motivates me</h3><ul class="nice-list"><li>Bridging theoretical formulas with physical circuit implementations</li><li>Developing analytical and algorithmic engineering skills</li><li>Collaborating on innovative design and research problems</li><li>Maintaining a continuous log of technical growth and projects</li></ul><a class="button button-primary" href="education.html">My Education ↗</a></div>
+    </section>
+    <section class="section section-wrap"><div class="section-heading"><p class="eyebrow">MY VALUES</p><h2>Curiosity with <span>purpose.</span></h2></div><div class="intro-grid"><article class="info-card"><span class="card-number">01</span><h3>Keep Learning</h3><p>Master core engineering fundamentals through continuous research and lab experimentation.</p></article><article class="info-card"><span class="card-number">02</span><h3>Think Practically</h3><p>Transform mathematical models into functional circuits, CAD designs, and software algorithms.</p></article><article class="info-card"><span class="card-number">03</span><h3>Grow Together</h3><p>Engage in collaborative technical efforts, exchange ideas, and contribute to engineering solutions.</p></article></div></section>
+
+  </main>
+  <footer class="site-footer">
+    <a class="brand" href="index.html"><span class="brand-mark">KA.</span><span>Kawsar Alam</span></a>
+    <p>Curious mind. Practical learning. Engineering for tomorrow.</p>
+    <a href="#top" class="back-top">Back to top ↑</a>
+    <small>© <span id="year"></span> Kawsar Alam · EEE Portfolio</small>
+  </footer>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close image preview">×</button>
+    <img id="lightbox-image" src="" alt="Expanded gallery image">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

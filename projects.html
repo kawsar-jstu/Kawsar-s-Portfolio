@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kawsar Alam — EEE Portfolio">
+  <title>Projects | Kawsar Alam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVIGATION: menu items and links can be edited here on every page -->
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">KA.</span><span>Kawsar Alam</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" id="nav-links">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="skills.html" class="">Skills</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="education.html" class="">Education</a>
+        <a href="experience.html" class="">Experience</a>
+        <a href="gallery.html" class="">Gallery</a>
+        <a href="certificates.html" class="">Certificates</a>
+        <a href="contact.html" class="">Contact</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme">☼</button>
+    </nav>
+  </header>
+  <main>
+
+    <section class="page-hero section-wrap"><p class="eyebrow">03 — IDEAS IN PRACTICE</p><h1>My <span>projects.</span></h1><p>Electrical and electronics circuit designs, thermodynamic system analysis, power network calculations, and practical laboratory investigations.</p></section>
+    <section class="section section-wrap"><div class="projects-grid">
+      <article class="project-card"><a class="project-image" href="assets/project-01.jpg" target="_blank"><img src="assets/project-01.jpg" alt="Website making project" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80'"><span class="image-open">↗</span></a><div class="project-content"><p class="card-kicker">WEB DEVELOPMENT</p><h3>Website Making</h3><p>Development and deployment of a responsive, modern engineering portfolio website showcasing academic projects, skills, and practical lab work.</p><div class="tag-row"><span>Web</span><span>Development</span></div></div></article>
+      <article class="project-card"><a class="project-image" href="assets/project-02.jpg" target="_blank"><img src="assets/project-02.jpg" alt="Step down transformer project" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=900&q=80'"><span class="image-open">↗</span></a><div class="project-content"><p class="card-kicker">POWER & ENERGY</p><h3>Step Down Transformer Making</h3><p>Design, winding calculation, core assembly, and performance testing of a step-down power transformer for safe voltage reduction in power supply circuits.</p><div class="tag-row"><span>Power</span><span>Hardware</span></div></div></article>
+      <article class="project-card"><a class="project-image" href="assets/project-03.jpg" target="_blank"><img src="assets/project-03.jpg" alt="Circuit design project" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80'"><span class="image-open">↗</span></a><div class="project-content"><p class="card-kicker">ELECTRONICS</p><h3>Circuit Design</h3><p>Analysis and design of active and passive RC and RLC filters alongside inverting and non-inverting operational amplifiers for controlled gain, offset compensation, and signal processing.</p><div class="tag-row"><span>Circuit</span><span>Testing</span></div></div></article>
+      <article class="project-card"><a class="project-image" href="assets/project-04.jpg" target="_blank"><img src="assets/project-04.jpg" alt="Laboratory project" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=900&q=80'"><span class="image-open">↗</span></a><div class="project-content"><p class="card-kicker">LAB WORK</p><h3>Practical Lab Work</h3><p>Practical engineering lab investigations featuring structured C programming for numerical methods and algorithm design, MATLAB modeling of s-domain transfer functions and Fourier series, SPICE circuit simulation for frequency and transient responses, and precision 2D AutoCAD drafting for orthographic projections, electrical schematics, and mechanical assembly layouts.</p><div class="tag-row"><span>Lab</span><span>Learning</span></div></div></article>
+    </div>
+    
+
+  </main>
+  <footer class="site-footer">
+    <a class="brand" href="index.html"><span class="brand-mark">KA.</span><span>Kawsar Alam</span></a>
+    <p>Curious mind. Practical learning. Engineering for tomorrow.</p>
+    <a href="#top" class="back-top">Back to top ↑</a>
+    <small>© <span id="year"></span> Kawsar Alam · EEE Portfolio</small>
+  </footer>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close image preview">×</button>
+    <img id="lightbox-image" src="" alt="Expanded gallery image">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
