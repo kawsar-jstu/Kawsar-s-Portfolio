@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kawsar Alam — EEE Portfolio">
+  <title>Projects | Kawsar Alam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVIGATION: menu items and links can be edited here on every page -->
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">KA.</span><span>Kawsar Alam</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" id="nav-links">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="skills.html" class="">Skills</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="education.html" class="">Education</a>
+        <a href="experience.html" class="">Experience</a>
+        <a href="gallery.html" class="">Gallery</a>
+        <a href="certificates.html" class="">Certificates</a>
+        <a href="contact.html" class="">Contact</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme">☼</button>
+    </nav>
+  </header>
+  <main>
+
+    <section class="page-hero section-wrap"><p class="eyebrow">03 — IDEAS IN PRACTICE</p><h1>My <span>projects.</span></h1><p>Academic assignments, circuit experiments and engineering ideas. Replace every sample with your own work.</p></section>
+    <section class="section section-wrap"><div class="projects-grid">
+      <article class="project-card"><a class="project-image" href="assets/images/projects/project-01.jpg" target="_blank"><img src="assets/images/projects/project-01.jpg" alt="Electronic circuit project" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80'"><span class="image-open">↗</span></a><div class="project-content"><p class="card-kicker">ELECTRONICS</p><h3>Electronic Circuit Study</h3><p>Write your circuit goal, components, design process and test results.</p><div class="tag-row"><span>Circuit</span><span>Testing</span></div></div></article>
+      <article class="project-card"><a class="project-image" href="assets/images/projects/project-02.jpg" target="_blank"><img src="assets/images/projects/project-02.jpg" alt="Power systems project" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=900&q=80'"><span class="image-open">↗</span></a><div class="project-content"><p class="card-kicker">POWER & ENERGY</p><h3>Power Systems Study</h3><p>Add your assignment, simulation, diagrams and key findings.</p><div class="tag-row"><span>Power</span><span>Research</span></div></div></article>
+      <article class="project-card"><a class="project-image" href="assets/images/projects/project-03.jpg" target="_blank"><img src="assets/images/projects/project-03.jpg" alt="Laboratory project" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=900&q=80'"><span class="image-open">↗</span></a><div class="project-content"><p class="card-kicker">LAB WORK</p><h3>Practical Lab Work</h3><p>Show experiment photos, measurements and what you learned.</p><div class="tag-row"><span>Lab</span><span>Learning</span></div></div></article>
+    </div>
+    <div class="how-to-card"><p class="eyebrow">ADD A NEW PROJECT</p><h3>Copy one project card.</h3><p>In <code>projects.html</code>, copy the full <code>&lt;article class="project-card"&gt;</code> block, paste it after the last card, then change the image path, title, description and tags.</p></div></section>
+
+  </main>
+  <footer class="site-footer">
+    <a class="brand" href="index.html"><span class="brand-mark">KA.</span><span>Kawsar Alam</span></a>
+    <p>Curious mind. Practical learning. Engineering for tomorrow.</p>
+    <a href="#top" class="back-top">Back to top ↑</a>
+    <small>© <span id="year"></span> Kawsar Alam · EEE Portfolio</small>
+  </footer>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close image preview">×</button>
+    <img id="lightbox-image" src="" alt="Expanded gallery image">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
